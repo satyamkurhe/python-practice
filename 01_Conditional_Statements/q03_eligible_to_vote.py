@@ -1,0 +1,13 @@
+# Question 3: Write a program to check whether a person is eligible to vote or not.
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are eligible to vote")
+else:
+    print("You are not eligible to vote")
+
+
+# ----- Output -----
+# Enter your age: 21
+# You are eligible to vote
