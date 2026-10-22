@@ -1,0 +1,20 @@
+# Question 13: Check whether a number is palindrome.
+
+num = int(input("Enter a number: "))
+original = num
+reverse = 0
+
+while num > 0:
+    digit = num % 10
+    reverse = reverse * 10 + digit
+    num = num // 10
+
+if original == reverse:
+    print(original, "is a Palindrome number")
+else:
+    print(original, "is not a Palindrome number")
+
+
+# ----- Output -----
+# Enter a number: 12321
+# 12321 is a Palindrome number

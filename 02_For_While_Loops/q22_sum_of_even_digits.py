@@ -1,0 +1,17 @@
+# Question 22: Find sum of even digits in a number.
+
+num = int(input("Enter a number: "))
+total = 0
+
+while num > 0:
+    digit = num % 10
+    if digit % 2 == 0:
+        total = total + digit
+    num = num // 10
+
+print("Sum of even digits:", total)
+
+
+# ----- Output -----
+# Enter a number: 284613
+# Sum of even digits: 20
